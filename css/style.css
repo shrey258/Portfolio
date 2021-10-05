@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .topnav {
+    background-color: #000000;
+    color: #fff;
+  }
+  .topnav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+  }
+  .topnav a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .header {
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(255, 255, 255, 0.8)),
+    url("C:/Users/hardi/OneDrive/Documents/Landscape[624].png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color:pink;
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
+  }
+  .header h1 {
+    text-transform: uppercase;
+    padding: 20%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  #about {
+    padding: 10%;
+  }
+  
+  #about h1 {
+    font-family: Arial;
+    font-size: 45px;
+    margin: 2px;
+  }
+  #about h3 {
+    font-size: 30px;
+    margin: 2px;
+  }
+  #about p {
+    font-size: 25px;
+    margin: 2px;
+  }
+  
+  #about img {
+    width: 90%;
+    height: 500px;
+  }
+  
+  #skills {
+    padding: 10%;
+  }
+  
+  #skills h1 {
+    font-family: Arial;
+    font-size: 45px;
+    margin: 2px;
+  }
+  #skills h3 {
+    font-size: 30px;
+    margin: 2px;
+  }
+  #skills p {
+    font-size: 25px;
+    margin: 2px;
+  }
+  
+  #skills img {
+    width: 90%;
+    height: 500px;
+  }
+  
+  
+  #contact {
+    padding: 10%;
+  }
+  
+  #contact h1 {
+    font-family: Arial;
+    font-size: 45px;
+    margin: 2px;
+  }
+  #contact h3 {
+    font-size: 30px;
+    margin: 2px;
+  }
+  #contact p {
+    font-size: 25px;
+    margin: 2px;
+  }
+  
+  
+  
